@@ -13,8 +13,30 @@
 	color : green;
 }
 
+/* カーソルを重ねたときの設定 */
+a:hover{
+	/* font-size:26px; フォントのサイズを26pxに設定する */
+	color : white;	/*　文字を白色にする */
+}
+
+.black{
+	background-color: black;
+}
+
+/* ヘッダーの部分がすべて */
+header *{
+	background-color: red;
+}
+
+/* ヘッダーの中の h1 のみの設定 */
+header h1{
+	color : red;
+}
+
 /* ページ全体に関する設定 */
 body{
 	/* 背景色の設定 16進数RGB */
-	background-color: #eeeeff;
+	/* background-color: #eeeeff; */
+	background-size: cover;
+	background-image: url("../image/image1.png");
 }
