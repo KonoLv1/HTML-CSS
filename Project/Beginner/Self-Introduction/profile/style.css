@@ -1,0 +1,164 @@
+@charset "utf-8";
+@charset "utf-8";
+/* 基本レイアウト ここから↓ */
+@import url(common.css);
+body {
+	/* カーソルを青色にする */
+	cursor: url(../images/iconblue.cur),auto;
+	/* 画面フェードイン処理	ここから */
+  	animation: fadeIn 1s ease 0s 1 normal;
+  	-webkit-animation: fadeIn 1s ease 0s 1 normal;
+	/* 画面フェードイン処理	ここまで */
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+
+/* インデックスページの処理 */
+
+/* 背景画像 */
+body.index{
+	background-image: url(../images/pastandfuture.png);
+@media screen and (max-width: 499px){
+	width:100%;
+	background-image: url(../images/wakuwaku.png);
+}
+@media screen and (min-width: 500px) and (max-width:959px){
+	background-image: url(../images/dyedfeathers.png);
+	width:100%;
+}
+@media screen and (min-width:1000px){
+	background-image: url(../images/soul.png);
+}
+}
+/* カウンターを中央に寄せる */
+div.count{
+	margin: 0 0 0 40px;
+}
+/* カーソルを赤色にする */
+a{
+	cursor: url(../images/iconred.cur),pointer;
+}
+
+
+
+/* 背景画像 */
+
+body.TOP{
+	background-image: url(images/Top.png);
+}
+
+section.TOP{
+  width: 600px;
+
+  margin-left: auto;
+  margin-right: auto;
+   /* background-color: rgba(255,255,255,0.4); */
+   color: #ffffff;
+   text-shadow: 5px 5px 5px #777777, -5px -5px 5px #444444;
+}
+
+body.hobby{
+	background-image: url(../images/wakuwaku.png);
+}
+
+
+body.EarthFragment{
+	background-image: url(../images/swift.png);
+}
+body.WalkEgg{
+	background-image: url(../images/eggback.png);
+}
+body.sakesake{
+	background-image: url(../images/sakesake.png);
+	cursor: url(../images/sakesakeicon.cur),auto;
+}
+a.sakesake{
+	cursor: url(../images/sakesakeicon2.cur),pointer;
+}
+body.arukitamago{
+	background-image: url(../images/pastandfuture.png);
+}
+
+
+
+
+/* ????の処理 */
+h1.index{
+  color: rgba( 200, 200, 255, 0.6);
+  margin: 5px 10px 10px 5px;
+  font-size: 75px;
+}
+/* 背景画像 */
+body.status{
+	background-image: url(../images/status.png);
+}
+
+
+body.kusatu{
+	background-image: url(../images/background/kusatu.png);
+}
+
+header {
+	/* メニュー背景を表示 */
+	background-image: url(../images/menu.png);
+	width: 900px;
+	height: 69px;
+	margin: 0 auto 20px auto;
+	padding-top: 1px;
+	position: relative;
+}
+header h1 {
+	position: absolute;
+}
+
+
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+nav {
+	padding-top: 5px;
+	position: absolute;
+	right: 0;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a:hover{
+	opacity: 0.65;
+}
+footer {
+
+	width: 900px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+footer p {
+	margin-bottom: 0;
+	padding: 10px 0 10px 0;
+/*	background-color: #bc8e03; */
+   text-shadow: 5px 5px 5px #777777, -5px -5px 5px #444444;
+color: #ffffff;
+	/* background-color: #555555; */
+	text-align: center;
+}
+
+}
