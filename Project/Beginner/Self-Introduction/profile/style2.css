@@ -1,4 +1,5 @@
 @charset "utf-8";
+@charset "utf-8";
 /* 基本レイアウト ここから↓ */
 @import url(common.css);
 body {
@@ -14,99 +15,6 @@ body {
 	background-size: cover;
 
 }
-
-
-
-
-
-.bg-slider {
-	width: 100vw;
-	height: 100vh;
-	background-position:center center;
-	background-size: cover;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.bg-slider__title{
-	color: #fff;
-	font-size: 48px;
-	line-height: 1.5;
-	font-weight: bold;
-	text-align:center;
-	text-shadow: 1px 1px 1px #000;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#video-background,
-#video-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-}
-
-#video-background {
-  z-index: -2;
-}
-
-#video-overlay {
-  z-index: -1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* インデックスページの処理 */
@@ -143,37 +51,6 @@ body.TOP{
 	background-image: url(images/Top.png);
 }
 
-body.ABOUT{
-	background-image: url(images/night.png);
-}
-
-/* ここから下 */
-
-section.sono1{
-	  width: 600px;/*ここに画像の横サイズ*/
-		height: 200px;/*ここに画像の縦サイズ*/
-		margin-left: auto;
-		margin-right: auto;
-	background-image: url(images/bike.png); /*ここに画像の名前を追加する*/
-}
-
-section.sono2{
-	  width: 600px; /*ここに画像の横サイズ*/
-		height: 200px;/*ここに画像の縦サイズ*/
-		margin-left: auto;
-		margin-right: auto;
-	background-image: url(images/bike.png); /*ここに画像の名前を追加する*/
-}
-
-p.center{
-	margin-left: auto;
-	margin-right: auto;
-	color: #ffffff;
-	text-shadow: 5px 5px 5px #777777, -5px -5px 5px #444444;
-}
-
-
-/* ここから上 */
 section.TOP{
   width: 600px;
 
@@ -237,9 +114,6 @@ header {
 header h1 {
 	position: absolute;
 }
-
-
-
 
 
 
