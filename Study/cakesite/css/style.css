@@ -1,0 +1,60 @@
+
+nav {
+	padding-top: 5px;
+	position: absolute;
+	right: 0;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a:hover{
+	opacity: 1.0;
+}
+
+nav ul li a{
+	opacity: 0.25;
+}
+
+.top{
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+
+  margin-left: auto;
+  margin-right: auto;
+   /* background-color: rgba(255,255,255,0.4); */
+   color: #666666;
+   text-shadow: 5px 5px 5px #888888, -5px -5px 5px #aaaaaa;
+
+}
+
+body{
+	text-align: center;
+}
+
+	/* 画像輪郭に影を付与*/
+.box-shadow {
+  box-shadow: 0 0 10px black;
+}
+
+
+header {
+	/* メニュー背景を表示 */
+	width: 850px;
+	height: 69px;
+	margin: 0 auto 20px auto;
+	padding-top: 1px;
+  position: relative;
+}
+
+/* 著作権表記 - CopyRight */
+footer {
+	width: 900px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
