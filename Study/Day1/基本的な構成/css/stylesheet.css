@@ -1,0 +1,25 @@
+body{
+	/* 背景の色の指定 */
+	background-color:#dddddd;
+	/* 中央に配置指定 */
+}
+
+.logo{
+	/* 色を変更 */
+	color:#992222;
+	/* 文字の大きさを指定 */
+	font-size:40px;
+	/* 要素が横並びになる */
+	float:left;
+	/* 四方に余白を追加 */
+	padding:10px;
+}
+.menu{
+	/* リストの黒点がなくなる */
+	list-style: none;
+	/* 要素が左に横並びになる */
+	float: left; 
+}
+.header{
+	padding:20px;
+}
